@@ -1,4 +1,4 @@
-package de.ralfebert.docstamper;
+package de.ralfebert.serialletter;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

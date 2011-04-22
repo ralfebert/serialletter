@@ -1,4 +1,4 @@
-package de.ralfebert.docstamper;
+package de.ralfebert.serialletter;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,6 +15,8 @@ import java.util.zip.ZipInputStream;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
+
+import de.ralfebert.serialletter.PagesDocument;
 
 public class SerialLetterTest {
 
