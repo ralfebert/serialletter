@@ -10,6 +10,14 @@ A Java library for replacing serial letter fields in zipped XML office documents
 	doc.setDefaultValue("???");
 	doc.apply(new FileOutputStream(outFile));
 
+## Maven Dependency
+
+	<dependency>
+		<groupId>de.ralfebert</groupId>
+		<artifactId>serialletter</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+
 ## License
 
 You can use serialletter under the conditions of one of the following licenses:
