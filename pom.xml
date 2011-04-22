@@ -3,7 +3,7 @@
 	<groupId>de.ralfebert</groupId>
 	<artifactId>serialletter</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>serialletter</name>
 	<description>A Java library for replacing serial letter fields in zipped XML office documents. Currently supported are Apple Pages '09 documents.</description>
 	<url>http://www.ralfebert.de/blog/java/serialletter/</url>
