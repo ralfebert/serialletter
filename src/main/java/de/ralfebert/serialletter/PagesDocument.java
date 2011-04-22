@@ -102,7 +102,7 @@ public class PagesDocument {
 				String name = entry.getName();
 				zipdest.putNextEntry(new ZipEntry(name));
 				if (name.equals("index.xml")) {
-					processIndexXml(zipsrc, zipdest, values, defaultValue);
+					processIndexXml(zipsrc, zipdest);
 				} else {
 					IOUtils.copy(zipsrc, zipdest);
 				}
@@ -119,8 +119,8 @@ public class PagesDocument {
 		}
 	}
 
-	private void processIndexXml(InputStream src, OutputStream dest, Map<String, String> fields, String defaultValue)
-			throws XMLStreamException, FactoryConfigurationError {
+	private void processIndexXml(InputStream src, OutputStream dest) throws XMLStreamException,
+			FactoryConfigurationError {
 
 		XMLEventFactory eventFactory = XMLEventFactory.newInstance();
 		XMLEventReader reader = XMLInputFactory.newInstance().createXMLEventReader(new KeepOpenInputStream(src));
